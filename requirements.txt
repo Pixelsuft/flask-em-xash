@@ -1,0 +1,8 @@
+gunicorn==20.0.4
+setuptools>=3.0
+Flask==1.1.2
+Flask-Cors==3.0.9
+Flask-SQLAlchemy==2.4.4
+Jinja2==2.11.2
+html5lib==1.1
+httplib2==0.18.1

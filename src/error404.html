@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="MobileOptimized" content="640"/>
+  <meta name="HandheldFriendly" content="true"/>
+  <title>Ашипка 404 мать его</title>
+  <style rel="stylesheet" type="text/css">
+   * {
+ 			cursor: default;
+ 			-webkit-user-select: none;
+ 			-moz-user-select: none;
+ 			-ms-user-select: none;
+ 			user-select: none;
+      background: black;
+   }
+   body {
+     margin: 0px;
+     padding: 0px;
+     display: block;
+   }
+   #image {
+     width: 100%;
+     height: 100%;
+     display: block;
+   }
+  </style>
+</head>
+<body>
+  <img id="image" src="{{ url_for('static', filename='404.png') }}">
+</body>
+</html>
