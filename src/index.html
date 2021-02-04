@@ -126,7 +126,7 @@ Memory size: <input type=number value=150 id=mem >
 
 </form>
 <script>
-var a = new Audio('music.mp3');
+var a = new Audio("{{ url_for('static', filename='music.mp3') }}");
 var pashalka_count = 0;
 
 function play_sound(){
